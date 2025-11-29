@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food and Fruid</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Share+Tech&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+      .font h1 {
+        font-family: "Momo Trust Display", sans-serif;
+      }
+      .font p {
+        color: orange;
+        font-weight: bold;
+      }
+      .container-fluid {
+        width: 100%;
+        height: 650px;
+        background-color: rgb(250, 238, 223);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid w-100 h-auto">
+      <div class="">
+        <div class="row py-1">
+          <div class="navbar fw-bold">
+            <div class="col-4">
+              <p class="fs-4" style="font-family: Changa One, sans-serif">
+                <img src="./img/broccli.png" alt="#" width="70px" />Broccoli
+              </p>
+            </div>
+            <div class="col-4">
+              <ul class="nav text-black">
+                <li class="nav-item">
+                  <a class="nav-link text-black" href="">Home+</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-black" href="">Shop+</a>
+                </li>
+                <li class="nav-iteem">
+                  <a class="nav-link text-black" href="">Product+</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-black" href="">Blogs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-black" href="">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-black" href="">Pages+</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-4">
+              <div class="nav px-4 py-1 d-flex gap-4">
+                <li class="nav-item bg-light px-3 py-2 shadow">
+                  <i
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasScrolling"
+                    aria-controls="offcanvasScrolling"
+                    class="fa-solid fa-magnifying-glass"
+                  ></i>
+                </li>
+
+                <!-- =================Login=============== -->
+
+                <li class="nav-item bg-light px-3 py-2 shadow">
+                  <i
+                    data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop"
+                    class="fa-regular fa-user"
+                  ></i>
+                </li>
+
+                <li class="nav-item bg-light px-3 py-2 shadow">
+                  <i
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="fa-solid fa-cart-shopping"
+                  ></i>
+                </li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ====================== slide ================= -->
+
+      <div class="col-12">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="navbar container px-5">
+                <div class="font">
+                  <p>100% genuine Product</p>
+                  <h1 class="fw-bold fs-xl">Tasty & Healthy</h1>
+                  <h1 class="fw-bold">Organic Food</h1>
+                  <button
+                    class="btn bg-warning fw-bold fs-6 py-2 px-3 my-4 text-white"
+                  >
+                    Shop Now
+                  </button>
+                </div>
+                <div class="animate__animated animate__fadeInTopRight">
+                  <img src="./img/vb.png" alt="#" />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item active">
+              <div class="navbar container px-5">
+                <div class="font">
+                  <p>100% genuine Product</p>
+                  <h1 class="fw-bold fs-xl">Tasty & Healthy</h1>
+                  <h1 class="fw-bold">Organic Food</h1>
+                  <button
+                    class="btn bg-warning fw-bold fs-6 py-2 px-3 my-4 text-white"
+                  >
+                    Shop Now
+                  </button>
+                </div>
+                <div class="animate__animated animate__fadeInRightBig">
+                  <img src="./img/vb.png" alt="#" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===============body============== -->
+    <div class="my-5">
+      <div class="container">
+        <div style="width: 100%; height: 600px" class="d-flex">
+          <div
+            style="width: 50%; height: 615px; background-color: #eff5e9"
+            class="my-3"
+          >
+            <div class="navbar-brand px-5">
+              <div class="row">
+                <div class="col-7">
+                  <div class="px-4 py-3">
+                    <div style="font-family: Playfair Display, serif">
+                      <p class="fs-1">Green Lemon &</p>
+                      <h1 class="fw-bold">Orange Juice</h1>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex">
+                  <div style="width: 25%; height: auto">
+                    <ul style="list-style-type: none" class="py-5">
+                      <li><p>BEST ORANGE</p></li>
+                      <li><p>FLAVOUR</p></li>
+                      <li><p>YOU NEVER MISS</p></li>
+                      <button class="btn bg-warning text-white fw-bold">
+                        Shop Now <i class="fa-solid fa-arrow-right"></i>
+                      </button>
+                    </ul>
+                  </div>
+                  <div style="width: 75%; height: auto">
+                    <img
+                      src="./img/pagajuice.png"
+                      alt="#"
+                      height="450px"
+                      width="450px"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="width: 50%; height: 600px" class="mx-3">
+            <div
+              style="width: 100%; height: 50%; background-color: #f6f6f6"
+              class="my-3"
+            >
+              <div class="d-flex">
+                <div style="width: 50%; height: 100%">
+                  <div class="py-5">
+                    <img
+                      src="./img/seed.png"
+                      alt="#"
+                      width="100%"
+                      height="auto"
+                    />
+                  </div>
+                </div>
+                <div style="width: 50%; height: 100%">
+                  <div class="py-5 px-5">
+                    <h1
+                      style="font-family: Alegreya"
+                      ,
+                      serif;
+                      class="fw-bold fs-3 py-3"
+                    >
+                      Up to 15% Off Fresh Almond Seed
+                    </h1>
+                    <h5 class="text-warning">Form $69.99</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="width: 100%; height: 50%; background-color: #f6f6f6">
+              <div class="d-flex">
+                <div style="width: 60%; height: 100%">
+                  <div class="py-5 px-5">
+                    <h1
+                      style="font-family: Alegreya, serif"
+                      class="fw-bold fs-1"
+                    >
+                      50% Off in Fresh Mango Drinks
+                    </h1>
+                    <button class="btn text-white bg-warning">
+                      Shop Now <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                  </div>
+                </div>
+                <div style="width: 40%; height: 100%">
+                  <div class="py-3">
+                    <img
+                      src="./img/juice00.png"
+                      alt="#"
+                      width="250px"
+                      height="250px"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- =================menu=============== -->
+    <div class="py-5">
+      <h1
+        style="font-family: Share Tech, sans-serif; font-size: 60px"
+        class="text-center fw-bold py-3"
+      >
+        Our Products
+      </h1>
+      <div class="d-flex justify-content-center py-4">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link text-warning fw-bold" href="">FOOD & DRINK</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black fw-bold" href="">DRIED FOODS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black fw-bold" href="">DRIED FOODS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black fw-bold" href="">FISH & MEAT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black fw-bold" href="">VEGATABLES</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- ====================item============ -->
+    <div class="col-12">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-3">
+            <div
+              class="card rounded-3 d-flex align-items-center border-0"
+              style="
+                height: 330px;
+                box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+                  rgba(17, 17, 26, 0.1) 0px 16px 56px,
+                  rgba(17, 17, 26, 0.1) 0px 24px 80px;
+              "
+            >
+              <img
+                class="card-image"
+                src="./img/teab.png"
+                alt="#"
+                width="260px"
+              />
+              <div class="card-body py-5">
+                <div class="d-flexn text-center text-warning">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h5 class="fw-bold">Teab Fruit</h5>
+                <h5 class="text-warning fw-bold">$30.00</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div
+              class="card rounded-3 d-flex align-items-center border-0"
+              style="
+                height: 330px;
+                box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+                  rgba(17, 17, 26, 0.1) 0px 16px 56px,
+                  rgba(17, 17, 26, 0.1) 0px 24px 80px;
+              "
+            >
+              <img
+                class="card-image"
+                src="./img/cherry.png"
+                alt="#"
+                width="260px"
+              />
+              <div class="card-body py-4">
+                <div class="d-flexn text-center text-warning">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h5 class="fw-bold">Cherry</h5>
+                <h5 class="text-warning fw-bold">$30.00</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div
+              class="card rounded-3 d-flex align-items-center border-0"
+              style="
+                height: 330px;
+                box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+                  rgba(17, 17, 26, 0.1) 0px 16px 56px,
+                  rgba(17, 17, 26, 0.1) 0px 24px 80px;
+              "
+            >
+              <img
+                class="card-image"
+                src="./img/banana.png"
+                alt="#"
+                width="250px"
+              />
+              <div class="card-body py-4">
+                <div class="d-flexn text-center text-warning">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h5 class="fw-bold">Banana</h5>
+                <h5 class="text-warning fw-bold">$30.00</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div
+              class="card rounded-3 d-flex align-items-center border-0"
+              style="
+                height: 330px;
+                box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+                  rgba(17, 17, 26, 0.1) 0px 16px 56px,
+                  rgba(17, 17, 26, 0.1) 0px 24px 80px;
+              "
+            >
+              <img
+                class="card-image"
+                src="./img/dragon.png"
+                alt="#"
+                width="250px"
+              />
+              <div class="card-body py-4">
+                <div class="d-flexn text-center text-warning">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h5 class="fw-bold">Dragon Fruit</h5>
+                <h5 class="text-warning fw-bold">$30.00</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row my-5 mt-5">
+          <div class="col-3">
+            <div
+              class="card rounded-3 d-flex align-items-center border-0"
+              style="
+                height: 330px;
+                box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+                  rgba(17, 17, 26, 0.1) 0px 16px 56px,
+                  rgba(17, 17, 26, 0.1) 0px 24px 80px;
+              "
+            >
+              <img
+                class="card-image"
+                src="./img/kulen.png"
+                alt="#"
+                width="250px"
+              />
+              <div class="card-body py-4">
+                <div class="d-flexn text-center text-warning">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h5 class="fw-bold">Kulan Fruit</h5>
+                <h5 class="text-warning fw-bold">$30.00</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div
+              class="card rounded-3 d-flex align-items-center border-0"
+              style="
+                height: 330px;
+                box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+                  rgba(17, 17, 26, 0.1) 0px 16px 56px,
+                  rgba(17, 17, 26, 0.1) 0px 24px 80px;
+              "
+            >
+              <img
+                class="card-image"
+                src="./img/mango2.png"
+                alt="#"
+                width="200px"
+              />
+              <div class="card-body py-4">
+                <div class="d-flexn text-center text-warning">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h5 class="fw-bold">Orange</h5>
+                <h5 class="text-warning fw-bold">$30.00</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div
+              class="card rounded-3 d-flex align-items-center border-0"
+              style="
+                height: 330px;
+                box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+                  rgba(17, 17, 26, 0.1) 0px 16px 56px,
+                  rgba(17, 17, 26, 0.1) 0px 24px 80px;
+              "
+            >
+              <img
+                class="card-image"
+                src="./img/papaya.png"
+                alt="#"
+                width="200px"
+              />
+              <div class="card-body py-4">
+                <div class="d-flexn text-center text-warning">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h5 class="fw-bold">Papaya</h5>
+                <h5 class="text-warning fw-bold">$30.00</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div
+              class="card rounded-3 d-flex align-items-center border-0"
+              style="
+                height: 330px;
+                box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+                  rgba(17, 17, 26, 0.1) 0px 16px 56px,
+                  rgba(17, 17, 26, 0.1) 0px 24px 80px;
+              "
+            >
+              <img
+                class="card-image"
+                src="./img/passion.png"
+                alt="#"
+                width="200px"
+              />
+              <div class="card-body py-4">
+                <div class="d-flexn text-center text-warning">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h5 class="fw-bold">passion</h5>
+                <h5 class="text-warning fw-bold">$30.00</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ====================footer=================== -->
+
+    <style>
+      .news {
+        background-color: black;
+        color: white;
+      }
+      .btn1 {
+        height: 45px;
+        width: 100px;
+        background: white;
+        margin-left: -10px;
+        border: 2px solid white;
+        font-weight: 600;
+      }
+      .news input {
+        height: 45px;
+        width: 55%;
+        border: 2px solid white;
+        outline: none;
+        background: black;
+        margin-top: 20px;
+        font-weight: 600;
+      }
+    </style>
+
+    <div class="news py-5">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-9 m-auto text-center">
+            <h1 class="fw-bold">Join Our Secret Society</h1>
+            <input
+              type="text"
+              class="px-3 text-white"
+              placeholder="Enter Your Email"
+            />
+            <button class="btn1">Submit</button>
+          </div>
+        </div>
+        <div class="row py-5">
+          <div class="col-lg-3">
+            <h4 class="pb-3 fw-bold">CUSTOMER CARE</h4>
+            <p>Regular</p>
+            <p>On Time</p>
+            <p>Always Care</p>
+          </div>
+          <div class="col-lg-3">
+            <h4 class="pb-3 fw-bold">FAQ's</h4>
+            <p>No E-charges</p>
+            <p>Shoping & Delivery</p>
+            <p>Always Care</p>
+          </div>
+          <div class="col-lg-3">
+            <h4 class="pb-3 fw-bold">OUR COMPANT</h4>
+            <p>About</p>
+            <p>New Food</p>
+            <p>Product</p>
+          </div>
+          <div class="col-lg-3">
+            <h4 class="pb-3 fw-bold">SOCSIL MEDAI</h4>
+            <div class="fs-1">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-google"></i>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </div>
+
+    <!-- ================search================ -->
+    <div
+      class="offcanvas offcanvas-start"
+      data-bs-scroll="true"
+      data-bs-backdrop="false"
+      tabindex="-1"
+      id="offcanvasScrolling"
+      aria-labelledby="offcanvasScrollingLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">
+          Search Menu
+        </h5>
+
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <form action="">
+          <input class="form-control" type="text" placeholder="search" />
+        </form>
+      </div>
+    </div>
+    <!-- ==================login============== -->
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h1 class="fs-3 text-primary fw-bold">Sign In</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="py-3">
+                <input class="form-control" type="email" placeholder="Email" />
+                <br />
+                <input
+                  class="form-control"
+                  type="password"
+                  placeholder="Password"
+                />
+                <i
+                  class="fa-solid fa-lock position-absolute end-0 translate-middle-y me-3"
+                ></i>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Sign In</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ==================cart================= -->
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasRight"
+      aria-labelledby="offcanvasRightLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">Cart-shop</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">.........</div>
+    </div>
+  </body>
+</html>
